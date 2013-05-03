@@ -4,24 +4,27 @@ This is an example project for using Apache Thrift to communicate between a Pyth
 
 Contents
 ========
-/src/main/thrift : contains IDL
-/src/main/java : contains server implementation
-/src/main/python : contains client implementation
+> /src/main/thrift : contains IDL
+
+> /src/main/java : contains server implementation
+
+> /src/main/python : contains client implementation
 
 Getting it running
 ==================
 
 You will need:
-# maven
-# jdk
-# python
-# thrift 0.9.0
-# python thrift library (pip install thrift==0.9)
 
-To start the server:
++ maven
++ jdk
++ python
++ thrift 0.9.0
++ python thrift library (pip install thrift==0.9)
 
-> run the App.java class, the server should start on port 9001
+To start the server (port 9001):
+
+> run App.java main
 
 To start the client and send a measurement:
 
-> run the MetricsClient.py script
+> run MetricsClient.py
