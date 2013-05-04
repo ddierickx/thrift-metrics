@@ -4,11 +4,11 @@ This is an example project for using Apache Thrift to communicate between a Pyth
 
 Contents
 ========
-> /src/main/thrift : contains IDL
+> src/main/thrift : contains IDL
 
-> /src/main/java : contains server implementation
+> src/main/java : contains server implementation
 
-> /src/main/python : contains client implementation
+> src/main/python : contains client implementation
 
 Getting it running
 ==================
